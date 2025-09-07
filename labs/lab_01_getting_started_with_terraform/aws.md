@@ -6,7 +6,7 @@ In this lab, you will create your first Terraform configuration for AWS by setti
 **Preview Mode**: Use `Cmd/Ctrl + Shift + V` in VSCode to see a nicely formatted version of this lab!
 
 ## Prerequisites
-- Terraform installed
+- Terraform [installed](https://developer.hashicorp.com/terraform)
 - VS Code or preferred code editor installed
 
 Note: AWS credentials are not required for this lab as we will only be configuring the provider without creating any resources.
