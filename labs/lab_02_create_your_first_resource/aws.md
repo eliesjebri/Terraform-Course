@@ -31,6 +31,7 @@ cd labs/terraform
 ### 2. Configure AWS Credentials
 
 Check official AWS [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
+
 Set your AWS credentials as environment variables:
 
 ```bash
