@@ -7,7 +7,7 @@ In this lab, you will create your first AWS resource using Terraform: a Virtual 
 
 ## Prerequisites
 - Terraform installed
-- AWS CLI installed
+- AWS CLI [installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - AWS account with appropriate permissions
 - Completion of [LAB-01-AWS]
 ## Estimated Time
@@ -30,11 +30,13 @@ cd labs/terraform
 
 ### 2. Configure AWS Credentials
 
+Check official AWS [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
 Set your AWS credentials as environment variables:
 
 ```bash
 export AWS_ACCESS_KEY_ID="your_access_key"
 export AWS_SECRET_ACCESS_KEY="your_secret_key"
+export AWS_SESSION_TOKEN="your_token_if_needed"
 ```
 
 ### 3. Add VPC Resource Configuration
